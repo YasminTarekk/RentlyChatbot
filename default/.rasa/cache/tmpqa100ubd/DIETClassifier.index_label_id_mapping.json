@@ -1,0 +1,19 @@
+{
+  "0": "affirm",
+  "1": "booking_help",
+  "2": "bot_challenge",
+  "3": "cancel_booking",
+  "4": "car_owner_help",
+  "5": "car_rental_info",
+  "6": "deny",
+  "7": "emergency_help",
+  "8": "goodbye",
+  "9": "greet",
+  "10": "location_help",
+  "11": "loyalty_program_info",
+  "12": "modify_booking",
+  "13": "mood_great",
+  "14": "mood_unhappy",
+  "15": "points_balance_check",
+  "16": "promo_code_info"
+}

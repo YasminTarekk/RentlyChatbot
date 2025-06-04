@@ -1,0 +1,76 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: emergency scenario
+  steps:
+  - intent: emergency_help
+  - action: utter_emergency_help
+
+- story: help with booking
+  steps:
+  - intent: booking_help
+  - action: utter_booking_help
+
+- story: loyalty program info
+  steps:
+  - intent: loyalty_program_info
+  - action: utter_loyalty_program_info
+
+- story: car rental information
+  steps:
+  - intent: car_rental_info
+  - action: utter_car_rental_info
+
+- story: cancel booking
+  steps:
+  - intent: cancel_booking
+  - action: utter_cancel_booking
+
+
+- story: modify booking
+  steps:
+    - intent: modify_booking
+    - action: utter_modify_booking
+
+- story: car owner help
+  steps:
+    - intent: car_owner_help
+    - action: utter_car_owner_help
+
+- story: promo code info
+  steps:
+    - intent: promo_code_info
+    - action: utter_promo_code_info
+
+- story: check points balance
+  steps:
+    - intent: points_balance_check
+    - action: utter_points_balance_check
