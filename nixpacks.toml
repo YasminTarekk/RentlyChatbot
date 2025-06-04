@@ -1,6 +1,7 @@
 [phases.setup.packages]
 pkgs = [
-  "python3.12Full",  
+  "python3.12Full", 
+  "python3.12Packages.distutils", 
   "gcc",
   "postgresql_16.dev"
 ]
